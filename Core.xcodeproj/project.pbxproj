@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		08810D81B9294326CD3DCAEB /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29809AB199B80530625A036 /* Pods_Core.framework */; };
 		EF3848C227860C740066B557 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3848C127860C740066B557 /* APICall.swift */; };
-		EF3848C427860D810066B557 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3848C327860D810066B557 /* Color+Ext.swift */; };
 		EF3848C727860E260066B557 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3848C627860E260066B557 /* Helper.swift */; };
 		EF3848CC278610670066B557 /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3848CB278610670066B557 /* CustomActivityIndicator.swift */; };
 		EFEC815F277FD63200F382B0 /* Core.docc in Sources */ = {isa = PBXBuildFile; fileRef = EFEC815E277FD63200F382B0 /* Core.docc */; };
@@ -19,17 +18,14 @@
 		EFEC816C277FE98C00F382B0 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC816B277FE98C00F382B0 /* Repository.swift */; };
 		EFEC8170277FEA6600F382B0 /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC816F277FEA6600F382B0 /* UseCase.swift */; };
 		EFEC8173277FEA8E00F382B0 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC8172277FEA8E00F382B0 /* Interactor.swift */; };
-		EFEC8176277FF56C00F382B0 /* CustomError+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC8175277FF56C00F382B0 /* CustomError+Ext.swift */; };
-		EFEC8178277FF67900F382B0 /* Result+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC8177277FF67900F382B0 /* Result+Ext.swift */; };
 		EFEC81A62780622600F382B0 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC81A52780622600F382B0 /* Mapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		178FF2C707C1D0EA68169B5B /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "../../Core/Pods/Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
+		178FF2C707C1D0EA68169B5B /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 		C29809AB199B80530625A036 /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA1993E6E69274C74E50112F /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "../../Core/Pods/Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1993E6E69274C74E50112F /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		EF3848C127860C740066B557 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
-		EF3848C327860D810066B557 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		EF3848C627860E260066B557 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		EF3848CB278610670066B557 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
 		EFEC815A277FD63200F382B0 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,8 +36,6 @@
 		EFEC816B277FE98C00F382B0 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		EFEC816F277FEA6600F382B0 /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		EFEC8172277FEA8E00F382B0 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		EFEC8175277FF56C00F382B0 /* CustomError+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomError+Ext.swift"; sourceTree = "<group>"; };
-		EFEC8177277FF67900F382B0 /* Result+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Ext.swift"; sourceTree = "<group>"; };
 		EFEC81A52780622600F382B0 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				EF3848BF27860C3A0066B557 /* Utils */,
-				EFEC8174277FEAF500F382B0 /* Extension */,
 				EFEC816D277FE9B300F382B0 /* Domain */,
 				EFEC8166277FD9B500F382B0 /* Data */,
 				EFEC81A52780622600F382B0 /* Mapper.swift */,
@@ -166,16 +159,6 @@
 				EFEC8172277FEA8E00F382B0 /* Interactor.swift */,
 			);
 			path = UseCase;
-			sourceTree = "<group>";
-		};
-		EFEC8174277FEAF500F382B0 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				EFEC8175277FF56C00F382B0 /* CustomError+Ext.swift */,
-				EFEC8177277FF67900F382B0 /* Result+Ext.swift */,
-				EF3848C327860D810066B557 /* Color+Ext.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,12 +271,9 @@
 				EFEC816A277FE92900F382B0 /* LocalDataSource.swift in Sources */,
 				EF3848C227860C740066B557 /* APICall.swift in Sources */,
 				EFEC8168277FE87200F382B0 /* DataSource.swift in Sources */,
-				EF3848C427860D810066B557 /* Color+Ext.swift in Sources */,
 				EFEC81A62780622600F382B0 /* Mapper.swift in Sources */,
-				EFEC8176277FF56C00F382B0 /* CustomError+Ext.swift in Sources */,
 				EFEC815F277FD63200F382B0 /* Core.docc in Sources */,
 				EF3848C727860E260066B557 /* Helper.swift in Sources */,
-				EFEC8178277FF67900F382B0 /* Result+Ext.swift in Sources */,
 				EFEC816C277FE98C00F382B0 /* Repository.swift in Sources */,
 				EF3848CC278610670066B557 /* CustomActivityIndicator.swift in Sources */,
 			);

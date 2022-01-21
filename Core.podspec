@@ -4,7 +4,7 @@ s.ios.deployment_target = '15.0'
 s.name = "Core"
 s.summary = "Dicoding Core.framework for modularization chapter"
 s.requires_arc = true
-s.version = "1.0.2"
+s.version = "1.0.3"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Dimas Panuji Wicaksono" => "myzrael005@gmail.com" }
 s.homepage = "https://github.com/dimspawn/The-Movie-Time-Core"
