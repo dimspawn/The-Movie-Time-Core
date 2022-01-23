@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 s.platform = :ios
-s.ios.deployment_target = '15.0'
+s.ios.deployment_target = '14.0'
 s.name = "Core"
 s.summary = "Dicoding Core.framework for modularization chapter"
 s.requires_arc = true
-s.version = "1.0.3"
+s.version = "1.0.4"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Dimas Panuji Wicaksono" => "myzrael005@gmail.com" }
 s.homepage = "https://github.com/dimspawn/The-Movie-Time-Core"
